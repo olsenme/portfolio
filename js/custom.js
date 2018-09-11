@@ -17,7 +17,7 @@ function onScroll(event){
     });
 }
 });*/
-/*
+
 // Cache selectors
 var lastId,
     topMenu = $("#top-menu"),
@@ -62,7 +62,7 @@ $(window).scroll(function(){
          .parent().removeClass("active")
          .end().filter("[href='#"+id+"']").parent().addClass("active");
    }
-});*/
+});
 /*
 (function($) {
   "use strict"; // Start of use strict
