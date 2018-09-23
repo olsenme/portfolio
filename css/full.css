@@ -26,7 +26,7 @@ body {
     height: 100%;
 }
 .bg-primary{
-background-color:#989898!important
+background-color:#888888!important
 }
 
 .nav-link:hover{
@@ -34,7 +34,11 @@ background-color:#989898!important
  opacity:.5;
  color: #ffff;
 }
+.card-body {
+  padding:.5rem;
+  background-color: #c5e8ec;
 
+}
 .nav-link , .navbar-brand{
  color: #ffffff !important;
  cursor: pointer;
@@ -46,12 +50,29 @@ background-color:#989898!important
  }
  #content{
    padding-top: 70px;
-   width:50%;
-   background:white;
+   width:80%;
+   background:#c5e8ec;
    color: black;
+
   /* position:relative;*/
 
  }
  html {
      scroll-behavior: smooth;
  }
+ .no-border{
+  border: none;
+ }
+ .btn
+ {
+   background-color:#888888;
+   color:white;
+
+ }
+.gray-background {
+  background-color: #888888;
+
+}
+.blue{
+  background-color: white;
+}

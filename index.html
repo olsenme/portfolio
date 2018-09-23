@@ -17,6 +17,25 @@
     <!-- Custom styles for this template -->
     <link href="css/full.css" rel="stylesheet">
 
+    <style>
+      #content h3::before {
+        display: block;
+        content: " ";
+        margin-top: -53px;
+        height: 53px;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      body {
+        margin-bottom: 300px;
+      }
+
+      .nav-item .active {
+        background-color: rgba(0, 0, 0, .6);
+      }
+    </style>
+
   </head>
 
   <body>
@@ -26,13 +45,10 @@
 
       <div class="container">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive" >
-          <ul class="navbar-nav mx-auto" id = "top-menu">
-            <li class="nav-item active">
-              <a class="nav-link" href="#Home">Home
+          <ul class="nav navbar-nav mx-auto" id="top-menu">
+            <li class="nav-item">
+              <a class="nav-link active" href="#Home">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -43,10 +59,13 @@
               <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#Reviews">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Blog">Blog</a>
+              <a class="nav-link" href="">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact</a>
@@ -58,43 +77,193 @@
 
     <!-- Page Content -->
     <!--<div class="layer">-->
-      <div class="container" id="content" >
+      <div class="container shadow-lg p-3 mb-5" id="content">
         <div id="Home">
-          <h3>Section 1</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor, nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
-           </p>
-       </div>
+          <h3 class="text-center">Hi, I'm Meagan, and I build mobile and cloud applications!</h3>
+          <!--<div class="col-8 mx-auto text-center">-->
+            <img src="img/headshot.jpg"class="img-fluid mx-auto d-block" alt="Responsive image">
+          </div>
+      <!--  </div>-->
+
        <div id="About">
-         <h3>Section 2</h3>
+         <h3>About Me</h3>
          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor, nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
          </p>
       </div>
       <div id="Portfolio">
-        <h3>Section 3</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor, nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
-         </p>
+        <h3>Portfolio</h3>
+        <div class = "card-deck">
+         <div class = "card mb-4 mt-3">
+             <div class="card-body">
+            <img class="img-fluid" src="img/weather-icon.jpg">
+          <h5 class="card-title mt-2">Weather App</h5>
+           <a href="#" class="btn btn-primary btn-sm float-right">View Source</a>
+           </div>
+        </div>
+        <div class = "card mb-4 mt-3">
+           <div class="card-body">
+            <img class="img-fluid" src="img/eBayIcon.png">
+          <h5 class="card-title mt-2">AirBnb API</h5>
+           <a href="#" class="btn btn-primary btn-sm float-right">View Source</a>
+        </div>
+        </div>
+        <div class = "card mb-4 mt-3">
+          <div class="card-body">
+            <img class="img-fluid" src="img/hashtag.jpg">
+          <h5 class="card-title mt-2">SmartHashTags</h5>
+           <a href="#" class="btn btn-primary btn-sm float-right">View Source</a>
+          </div>
+        </div>
       </div>
+      <div class = "card-deck">
+       <div class = "card mb-4 mt-3">
+          <div class="card-body">
+           <img class="img-fluid" src="img/phoneDirectory.jpg">
+          <h5 class="card-title mt-2">Corporate Phone Directory</h5>
+          <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#CPD" aria-expanded="false" role="button" aria-controls="CPD" >Learn More...</a>
+
+          </div>
+          <div class="collapse" id="CPD">
+            <div class="card card-body blue">
+             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+      </div>
+      <div class = "card mb-4 mt-3">
+         <div class="card-body">
+          <img class="img-fluid" src="img/eBayIcon.png">
+        <h5 class="card-title mt-2">Skyus Support Tool</h5>
+        <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#SST" aria-expanded="false" role="button" aria-controls="SST">Learn More...</a>
+      </div>
+      <div class="collapse" id="SST">
+        <div class="card card-body blue">
+         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+      </div>
+      <div class = "card mb-4 mt-3">
+        <div class="card-body">
+          <img class="img-fluid" src="img/hashtag.jpg">
+        <h5 class="card-title mt-2">Decryptor Tool</h5>
+        <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#Decryptor" aria-expanded="false" role="button" aria-controls="Decryptor">Learn More...</a>
+        </div>
+        <div class="collapse" id="Decryptor">
+          <div class="card card-body blue">
+           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class = "card-deck">
+     <div class = "card mb-4 mt-3">
+         <div class="card-body">
+        <img class="img-fluid" src="img/eBayIcon.png">
+      <h5 class="card-title mt-2">Elite Loot</h5>
+       <button class="btn btn-primary btn-sm float-right" onClick="location.href='https://github.com/teymourk/Elite-Loot.git';">View Source</button>
+       </div>
+    </div>
+    <div class = "card mb-4 mt-3 no-border">
+       <div class="card-body">
+       <!-- <img class="img-fluid" src="img/eBayIcon.png">
+      <h5 class="card-title mt-2">Elite loot</h5>
+       <a href="#" class="btn btn-primary btn-sm float-right">Read More..</a>-->
+    </div>
+    </div>
+    <div class = "card mb-4 mt-3 no-border">
+      <div class="card-body">
+       <!-- <img class="img-fluid" src="img/hashtag.jpg">
+      <h5 class="card-title mt-2">SmartHashTags</h5>
+       <a href="#" class="btn btn-primary btn-sm float-right">Read More..</a>
+      </div>-->
+    </div>
+  </div>
+      <!--  <div class="row mb-4">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img class="img-fluid" src="img/phoneDirectory.jpg">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img class="img-fluid" src="img/eBayIcon.png">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img class="img-fluid" src="img/hashtag.jpg">
+          </div>
+        </div>
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/phoneDirectory.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/eBayIcon.png">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/hashtag.jpg">
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/phoneDirectory.jpg">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/eBayIcon.png">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="img/hashtag.jpg">
+            </div>
+          </div>-->
+
+        </div>
+        <div id="Skills">
+          <h3>Skills</h3>
+          <div class="progress mb-4 mt-3" style="width: 55%;">
+            <div class="progress-bar bg-primary" style="width:20%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Python
+            </div>
+            </div>
+            <div class="progress mb-4" style="width: 55%;">
+              <div class="progress-bar bg-primary" style="width:30%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">NodeJS
+              </div>
+            </div>
+            <div class="progress mb-4" style="width: 55%;">
+              <div class="progress-bar bg-primary"style="width:40%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Java
+              </div>
+            </div>
+            <div class="progress mb-4" style="width: 55%;">
+              <div class="progress-bar bg-primary"style="width:80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">C/C++/C#
+              </div>
+            </div>
+          </div>
       <div id="Reviews">
-        <h3>Section 4</h3>
+        <h3>Reviews</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor, nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
-      </p>
+        </p>
       </div>
       <div id="Contact">
-        <h3>Section 5</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor,  nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
-        </p>
+        <h3>Contact</h3>
+          <div class="row mb-4 ml-2">
+            <a href="mailto:meagan.kimra12@gmail.com">meagan.kimra12@gmail.com</a>
+            <button type="button" class="btn btn-outline-primary mb-2 ml-4 mr-4" onclick="location.href= 'https://www.linkedin.com/in/meaganolsen/';">LinkedIn</button>
+            <button type="button" class="btn btn-outline-primary  mb-2 ml-4 mr-4" onclick="location.href= 'https://github.com/olsenme';">Github</button>
+          </div>
      </div>
   </div>
 </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-   <script src="js/custom.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+
+      $(document).ready(function() {
+          $('body').scrollspy({
+            target: '#navbarResponsive',
+            offset: 20
+          });
+
+      });
+      $('.collapse').collapse()
+
+    </script>
+   <!--<script src="js/custom.js"> </script>-->
 
   </body>
 
