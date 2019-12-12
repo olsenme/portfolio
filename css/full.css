@@ -13,9 +13,7 @@ body {
   padding-top: 55px;
   color: white!important;
   position:relative;
-  margin-bottom: 300px;
 }
-
 .layer {
     background-color: rgba(0,0,0,.7);
     position: absolute;
@@ -48,7 +46,7 @@ html {
     scroll-behavior: smooth;
 }
 /*navbar*/
-.nav-link:hover, .nav-item .active{
+.nav-link:hover{
  background: #484848;
  opacity:.5;
  color: #ffff;
@@ -58,14 +56,6 @@ html {
  cursor: pointer;
 }
 /*main content*/
-#content h3::before {
-display: block;
-content: " ";
-margin-top: -53px;
-height: 53px;
-visibility: hidden;
-pointer-events: none;
-}
 #content{
   padding-top: 70px;
   width:80%;

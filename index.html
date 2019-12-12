@@ -10,6 +10,22 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/full.css" rel="stylesheet">
+    <style>
+     #content h3::before {
+       display: block;
+       content: " ";
+       margin-top: -53px;
+       height: 53px;
+       visibility: hidden;
+       pointer-events: none;
+     }
+     body {
+       margin-bottom: 450px;
+     }
+     .nav-item .active {
+       background-color: rgba(0, 0, 0, .6);
+     }
+   </style>
   </head>
   <body>
     <!-- Navigation -->
