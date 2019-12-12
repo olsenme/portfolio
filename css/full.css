@@ -52,7 +52,6 @@ html {
 }
 /*navbar*/
 .nav-link:hover{
- background: #484848;
  opacity:.5;
  color: #ffff;
 }
