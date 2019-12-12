@@ -1,50 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     <title>Full - Start Bootstrap Template</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="css/full.css" rel="stylesheet">
-
-    <style>
-      #content h3::before {
-        display: block;
-        content: " ";
-        margin-top: -53px;
-        height: 53px;
-        visibility: hidden;
-        pointer-events: none;
-      }
-
-      body {
-        margin-bottom: 300px;
-      }
-
-      .nav-item .active {
-        background-color: rgba(0, 0, 0, .6);
-      }
-    </style>
-
   </head>
-
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"role="navigation">
-
       <div class="container">
-
         <div class="collapse navbar-collapse" id="navbarResponsive" >
           <ul class="nav navbar-nav mx-auto" id="top-menu">
             <li class="nav-item">
@@ -74,24 +44,19 @@
         </div>
       </div>
     </nav>
-
     <!-- Page Content -->
-    <!--<div class="layer">-->
       <div class="container shadow-lg p-3 mb-5" id="content">
+        <!--Home-->
         <div id="Home">
-          <h3 class="text-center">Hi, I'm Meagan, and I build software applications!</h3>
-          <!--<div class="col-8 mx-auto text-center">-->
-            <img src="img/headshot.jpg"class="img-fluid mx-auto d-block" alt="Responsive image">
+            <img src="img/headshot.jpg"class="img-fluid mx-auto d-block mb-1 mt-1" alt="Responsive image">
           </div>
-      <!--  </div>-->
-
-       <div id="About">
+        <!--About-->
+       <div id="About" class="mt-3 mb-1">
          <h3>About</h3>
-         <p>My background is in Computer Science. I am a student at Oregon State University and will graduate in 2019 with a BS in Computer Science and a minor in Business. While in school, I particpated in a year long internship program to gain industry experience. I currently TA for freshman Computer Science students and am an officer on the OSU Hackathon Club leadership team. Programming is more than a job to me. I am passionate about developing high quality software that is intuitive and easy to use. My areas of interst include: web/mobile/cloud, UX/UI, and product/program management.
-		 
-		 </p>
+         <p class="bg-secondary">My background is in Computer Science. I am a student at Oregon State University and will graduate in 2019 with a BS in Computer Science and a minor in Business. While in school, I particpated in a year long internship program to gain industry experience. I currently TA for freshman Computer Science students and am an officer on the OSU Hackathon Club leadership team. Programming is more than a job to me. I am passionate about developing high quality software that is intuitive and easy to use. My areas of interst include: web/mobile/cloud, UX/UI, and product/program management.</p>
       </div>
-      <div id="Portfolio">
+      <!--Portfolio-->
+      <div id="Portfolio" class="text-center mt-3 mb-1">
         <h3>Portfolio</h3>
         <div class = "card-deck">
          <div class = "card mb-4 mt-3">
@@ -122,12 +87,10 @@
            <img class="img-fluid" src="img/phoneDirectory.jpg">
           <h5 class="card-title mt-2">Corporate Phone Directory</h5>
           <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#CPD" aria-expanded="false" role="button" aria-controls="CPD">Learn More...</a>
-		  
           </div>
 		  <div class="collapse" id="CPD" >
-           <div class="card card-body blue">
-           Corporate Phone Directory is a responsive web application that I worked on during my six month internship at Portland General Electric. It is built on an IBM server with a Java back end and an Angular front end. 
-		  
+           <div class="card card-body">
+           Corporate Phone Directory is a responsive web application that I worked on during my six month internship at Portland General Electric. It is built on an IBM server with a Java back end and an Angular front end.
            </div>
          </div>
 	  </div>
@@ -138,8 +101,8 @@
         <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#SST" aria-expanded="false" role="button" aria-controls="SST" >Learn More...</a>
       </div>
       <div class="collapse" id="SST" >
-        <div class="card card-body blue">
-        Skyus Support Tool is a C# Windows application that I worked on during my six month internship at Inseego North America this year. This application is a support tool for Inseego's Skyus devices. 
+        <div class="card card-body">
+        Skyus Support Tool is a C# Windows application that I worked on during my six month internship at Inseego North America this year. This application is a support tool for Inseego's Skyus devices.
         </div>
     </div>
       </div>
@@ -150,9 +113,8 @@
         <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href="#Decryptor" aria-expanded="false" role="button" aria-controls="Decryptor">Learn More...</a>
         </div>
         <div class="collapse" id="Decryptor">
-          <div class="card card-body blue">
-          Inseego Decryption Tool is a C# Windows application that I also worked on at Inseego North America. This application is a decryption tool used for automating the decryption of log files from AWS. 
-		  
+          <div class="card card-body">
+          Inseego Decryption Tool is a C# Windows application that I also worked on at Inseego North America. This application is a decryption tool used for automating the decryption of log files from AWS.
           </div>
       </div>
       </div>
@@ -165,14 +127,14 @@
        <button class="btn btn-primary btn-sm float-right" onClick="location.href='https://github.com/teymourk/Elite-Loot.git';">View Source</button>
        </div>
     </div>
-    <div class = "card mb-4 mt-3 no-border">
+    <div class = "card mb-4 mt-3 ">
        <div class="card-body">
        <!-- <img class="img-fluid" src="img/eBayIcon.png">
       <h5 class="card-title mt-2">Elite loot</h5>
        <a href="#" class="btn btn-primary btn-sm float-right">Read More..</a>-->
     </div>
     </div>
-    <div class = "card mb-4 mt-3 no-border">
+    <div class = "card mb-4 mt-3 ">
       <div class="card-body">
        <!-- <img class="img-fluid" src="img/hashtag.jpg">
       <h5 class="card-title mt-2">SmartHashTags</h5>
@@ -180,103 +142,47 @@
       </div>-->
     </div>
   </div>
-      <!--  <div class="row mb-4">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img class="img-fluid" src="img/phoneDirectory.jpg">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img class="img-fluid" src="img/eBayIcon.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img class="img-fluid" src="img/hashtag.jpg">
-          </div>
         </div>
-          <div class="row mb-4">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/phoneDirectory.jpg">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/eBayIcon.png">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/hashtag.jpg">
-            </div>
-          </div>
-          <div class="row mb-4">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/phoneDirectory.jpg">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/eBayIcon.png">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <img class="img-fluid" src="img/hashtag.jpg">
-            </div>
-          </div>-->
-
-        </div>
-        <div id="Skills">
+        <!--Skills-->
+        <div id="Skills" class="mt-3 mb-1">
           <h3>Skills</h3>
-          <div class="progress mb-4 mt-3" style="width: 55%;">
-            <div class="progress-bar bg-primary" style="width:80%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Python
+          <div class="progress mb-4 mt-3 mx-auto" style="width: 55%;">
+            <div class="progress-bar bg-secondary text-large" style="width:60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Python
             </div>
             </div>
-			<div class="progress mb-4 mt-3" style="width: 55%;">
-            <div class="progress-bar bg-primary" style="width:80%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">HTML
-            </div>
-            </div>
-			<div class="progress mb-4 mt-3" style="width: 55%;">
-            <div class="progress-bar bg-primary" style="width:60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">CSS
-            </div>
-            </div>
-            <div class="progress mb-4" style="width: 55%;">
-              <div class="progress-bar bg-primary" style="width:30%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">NodeJS
+          <div class="progress mb-4 mx-auto" style="width: 55%;">
+              <div class="progress-bar bg-secondary text-large" style="width:60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">NodeJS
               </div>
-            </div>
-            <div class="progress mb-4" style="width: 55%;">
-              <div class="progress-bar bg-primary"style="width:40%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Java
-              </div>
-            </div>
-            <div class="progress mb-4" style="width: 55%;">
-              <div class="progress-bar bg-primary"style="width:60%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">C/C++/C#
-              </div>
-            </div>
           </div>
+          <div class="progress mb-4 mx-auto" style="width: 55%;">
+              <div class="progress-bar bg-secondary text-large"style="width:60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Java
+              </div>
+          </div>
+          <div class="progress mb-4 mx-auto" style="width: 55%;">
+              <div class="progress-bar bg-secondary text-large"style="width:40%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">C/C++/C#
+              </div>
+          </div>
+      </div>
+      <!--Reviews(coming)-->
       <div id="Reviews">
       <!--  <h3>Reviews</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mauris non nisi molestie, non dignissim ligula tristique. In venenatis vitae mauris sed malesuada. Curabitur pretium rhoncus felis ut ullamcorper. Aliquam consectetur porta diam ac varius. Morbi et leo ex. Proin ullamcorper, risus ac malesuada bibendum, lectus urna facilisis massa, at facilisis nunc purus a dui. Sed ac est eros. Curabitur faucibus dignissim ex, et pharetra metus laoreet eget. Vestibulum nec sagittis urna.Vestibulum eget nisl ac risus facilisis ornare ac at lectus. Nulla consectetur faucibus lobortis. Vestibulum non magna luctus, bibendum lorem quis, convallis est. Quisque ultricies eget dolor non ullamcorper. Mauris sit amet magna odio. Aliquam ex nibh, pulvinar ut gravida vel, ullamcorper a massa. In magna libero, dictum interdum nisi ut, gravida eleifend tortor. Praesent in est libero. Donec tempus eros tellus, vitae imperdiet libero porttitor et. Mauris porttitor, nisi ut condimentum aliquet, quam mi tristique velit, in vehicula ipsum metus non lacus. Duis at purus ut augue fermentum dictum. Praesent eu nisl id enim porta pharetra eget sit amet ex. Maecenas vitae neque eget leo posuere consequat fringilla at risus. Nam vulputate, risus ac vulputate consectetur, diam tortor lacinia ex, sit amet semper ipsum eros nec mi.
         </p>-->
       </div>
-      <div id="Contact">
-        <h3>Contact</h3>
-          <div class="row mb-4 ml-2">
-            <a href="mailto:meagan.kimra12@gmail.com">meagan.kimra12@gmail.com</a>
+      <!--Contact-->
+      <h3>Contact</h3>
+      <div id="Contact"class="text-center mt-3 mb-1">
+          <div class="d-flex p-2 justify-content-center">
+            <button type="button"class="btn btn-outline-primary mb-2 ml-4 mr-4"  onclick="location.href= 'mailto:meagan.kimra12@gmail.com';">email me</button>
             <button type="button" class="btn btn-outline-primary mb-2 ml-4 mr-4" onclick="location.href= 'https://www.linkedin.com/in/meaganolsen/';">LinkedIn</button>
             <button type="button" class="btn btn-outline-primary  mb-2 ml-4 mr-4" onclick="location.href= 'https://github.com/olsenme';">Github</button>
           </div>
      </div>
   </div>
 </div>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <script>
-
-      $(document).ready(function() {
-          $('body').scrollspy({
-            target: '#navbarResponsive',
-            offset: 20
-          });
-
-      });
-      //$('.collapse').collapse()
-	
-
-    </script>
-   <!--<script src="js/custom.js"> </script>-->
-
+    <script src="js/custom.js"> </script>
   </body>
-
 </html>

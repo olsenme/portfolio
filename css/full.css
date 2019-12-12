@@ -3,18 +3,17 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
  */
-
-
+ /*Global Styles*/
 body {
    background: url('../img/Memorial_Union_at_Oregon_State_University.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  color:white;
   padding-top: 55px;
+  color: white!important;
   position:relative;
-
+  margin-bottom: 300px;
 }
 
 .layer {
@@ -25,57 +24,82 @@ body {
     width: 100%;
     height: 100%;
 }
-.bg-primary{
-background-color:#888888!important
+h3{
+  text-align: center;
 }
+.bg-primary{
+background-color:rgba(0,0,0,.7)!important;
+}
+.bg-secondary{
+  background-color:#86cbd3!important;
+}
+.btn
+{
+  background-color:#86cbd3!important;
+  border-color: #86cbd3!important;
+  color:white;
+}
+.label{
+  color:#ffff!important;
 
-.nav-link:hover{
+}
+/*scrollspy*/
+html {
+    scroll-behavior: smooth;
+}
+/*navbar*/
+.nav-link:hover, .nav-item .active{
  background: #484848;
  opacity:.5;
  color: #ffff;
 }
+.nav-link , .navbar-brand{
+ color:#ffff!important;
+ cursor: pointer;
+}
+/*main content*/
+#content h3::before {
+display: block;
+content: " ";
+margin-top: -53px;
+height: 53px;
+visibility: hidden;
+pointer-events: none;
+}
+#content{
+  padding-top: 70px;
+  width:80%;
+  background-color:#c5e8ec;
+  color: black;
+}
+#About, #Portfolio, #Skills, #Contact{
+  color:rgba(0,0,0,.7)!important;
+}
+#About p{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  border-radius: 10px;
+  margin: 5px;
+  color:white;
+}
+/*portfolio*/
 .card-body {
   padding:.5rem;
   background-color: #c5e8ec;
-
 }
-.nav-link , .navbar-brand{
- color: #ffffff !important;
- cursor: pointer;
+.card .collapse{
+  background-color: #c5e8ec;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
-
- li.active a {
-
-   background-color: #484848;
- }
- #content{
-   padding-top: 70px;
-   width:80%;
-   background:#c5e8ec;
-   color: black;
-
-  /* position:relative;*/
-
- }
- html {
-     scroll-behavior: smooth;
- }
- .no-border{
-  border: none;
- }
- .btn
- {
-   background-color:#888888;
-   color:white;
-
- }
-.gray-background {
-  background-color: #888888;
-
+/*Skills*/
+.text-large{
+  font-size:150%;
 }
-.blue{
-  background-color: white;
-}
-.descriptions{
-	display:none;
+/*contact*/
+#Contact{
+margin: auto;
+width:50%;
 }
